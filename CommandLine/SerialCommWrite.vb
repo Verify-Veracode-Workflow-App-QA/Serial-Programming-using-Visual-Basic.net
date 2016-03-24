@@ -5,19 +5,19 @@
 '| The Program runs on the PC side and uses dotnet framework to open a serial port and writes an ASCII |
 '| character to it  	                                                                               |
 '+=====================================================================================================+
-'| www.xanthium.in										                                               |
+'| www.xanthium.in                                                                                     |
 '| Copyright (C) 2016 Rahul.S                                                                          |
 '|                                                                                                     |
 '| http://www.xanthium.in/serial-port-programming-visual-basic-dotnet-for-embedded-developers          |
 '+=====================================================================================================+
 	
 '+=====================================================================================================+
-'| Compiler/IDE  :	Visual Studio/Visual Studio Express/SharpDevelop                                   |
+'| Compiler/IDE  :	Visual Studio/Visual Studio Express/SharpDevelop                               |
 '| Library       :  SerialPort Class from Dotnet Framework                                             |
 '| Language      :  Visual Basic.net                                                                   |
-'| OS            :	Windows                                                                            |
-'| Programmer    :	Rahul.S                                                                            |
-'| Date	         :	20-March-2016                                                                      |
+'| OS            :	Windows                                                                        |
+'| Programmer    :	Rahul.S                                                                        |
+'| Date	         :	20-March-2016                                                                  |
 '+=====================================================================================================+
 
 '+=====================================================================================================+
@@ -25,7 +25,7 @@
 '+=====================================================================================================+
 '|                                                                                                     |
 '|     +--------+         +----------------+                +----------------------+                   |
-'|	   |	    |         |            TXD |----------------|RXD                   |                   |
+'|     |	|         |            TXD |----------------|RXD                   |                   |
 '|     | PC     | =======>|USB         RXD |----------------|TXD  MicroController  |                   |
 '|    / [] []   /         |            GND |----------------|GND                   |                   |
 '|   /[] [] [] /          +----------------+                +----------------------+                   |
@@ -33,7 +33,7 @@
 '|   Windows PC                                                                                        |
 '+-----------------------------------------------------------------------------------------------------+
 '| Please Note that:                                                                                   |
-'| 					TXD of the USB2SERIAL converter is connected to RXD of  MicroController            |
+'| 		    TXD of the USB2SERIAL converter is connected to RXD of  MicroController            |
 '|                  RXD of the USB2SERIAL converter is connected to TXD of  MicroController            |
 '+=====================================================================================================+
 
