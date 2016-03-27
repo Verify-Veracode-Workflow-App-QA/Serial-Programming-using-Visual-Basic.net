@@ -8,5 +8,5 @@ The Program uses SerialPort Class to communicate with the Serial Port.
 
 The code is tested on Windows 7.
 
-<a src = "http://www.xanthium.in/serial-port-programming-visual-basic-dotnet-for-embedded-developers">Full Tutorial can be found here</a>
+<a href="http://www.xanthium.in/serial-port-programming-visual-basic-dotnet-for-embedded-developers">Full Tutorial can be found here</a>
 
