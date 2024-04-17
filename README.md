@@ -10,7 +10,7 @@ In this tutorial,
 	- .NET Framework 4.8+
 	- .NET Core 3+
 	- .Net 8/9
-
+- ![Serial Port programming tutorial using VisualBasic.NET on the .NET Framework Platform](https://www.xanthium.in/sites/default/files/inline-images/serial-port-programming-visual-basic-net.jpg)
 
 ## Tutorial 
 
