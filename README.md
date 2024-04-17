@@ -1,9 +1,16 @@
 # Serial Port communication between Arduino and PC using VisualBasic.Net
-------------------------------------------------------------------------------------------------
 
 ## Intro 
 In this tutorial,
-We will learn to program the USB Virtual serial port of a PC using Visual Basic.net and .NET platform [.NET Framework 4.5 +,.NET Core,.Net8/9]
+
+- We will learn to program the USB Virtual serial port of a PC using Visual Basic.net and .NET platform [.NET Framework 4.5 +,.NET Core,.Net8/9]
+
+- The code will Work on the following .NET platforms
+	- Classical .NET Framework 4.5+
+	- .NET Framework 4.8+
+	- .NET Core 3+
+	- .Net 8/9
+
 
 ## Tutorial 
 
