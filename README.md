@@ -34,6 +34,11 @@ In this tutorial,
 
 -![Arduino UNO to PC Serial Communication using Visual Basic.Net and .NET Platform](https://www.xanthium.in/sites/default/files/inline-images/arduino-pc-communication-visual-basic-net.jpg)
 -![Microcontroller UART to PC Serial Communication using Visual Basic.Net and .NET Platform](https://www.xanthium.in/sites/default/files/inline-images/microcontroller-interface-pc-vb-net.jpg)
+
+## Screen Shots
+
+-[Reading data from Serial Port using vb.net](https://www.xanthium.in/sites/default/files/inline-images/image_15.png)
+
 ## Repo Contents
 
 - Arduino_String_Transmit_Loop - Arduino Code to send data to PC
