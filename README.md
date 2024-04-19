@@ -16,25 +16,19 @@ In this tutorial,
 
 - [Serial Port programming tutorial using VisualBasic.NET on the .NET Platform](https://www.xanthium.in/serial-port-programming-visual-basic-dotnet-for-embedded-developers)
 
-- Discover how to program your PC's serial port using **VisualBasic.Net** and the **.NET Platform** in our tutorial. Learn to communicate with Arduino, microcontrollers, and Labjack devices via Virtual COM port connections.
-The tutorial will Enhance your embedded system coding skills and help in your professional Growth.
-Tutorial will teach the following things.
+- Discover How to program your PC's serial port using **VisualBasic.Net** and the **.NET Platform** in our tutorial. Learn to communicate with Arduino, microcontrollers, and Labjack devices via Virtual COM port connections.The tutorial will Enhance your embedded system coding skills and help in your professional Growth.
 
--IDE/Compiler Selection for VB.Net Development
-Creating a VB.Net Project using Visual Studio Community
-What is System.IO.Ports namespace 
-Hardware for Arduino VB.NET Serial Communication
-Interfacing Bare Microcontroller with PC using VB.Net
-USB to Serial/RS232/RS485 Converter (USB2SERIAL)
-Isolated USB to Serial/RS232/RS485 Converter (ISO-USB2SERIAL)
-Accessing SerialPort Class using Visual Basic.Net
-Finding Available Serial Ports using Visual Basic.Net
-Opening a Serial Port Connection in VB.Net
-Using VB.net Exceptions to handle Errors in Serial Port Programming 
-Reading data from Serial Port using vb.net
-Setting Timeouts in Serial Port Read Operations
-Arduino Code For Transmitting to PC
-Writing Data from PC to Arduino using VB.Net
+- Tutorial will teach the following things.
+
+	- Creating a VB.Net Project,add required namespaces using nuget on Visual Studio Community 
+	- Using the SerialPort Class from System.IO.Ports namespace 
+	- How to interface Arduino with PC using VB.NET Serial Communication
+	- Interfacing Bare Microcontroller like 8051,ATmega to a PC using VB.Net
+	- Finding Available Serial Portson your PC using Visual Basic.Net
+	- Using VB.net Exceptions to handle Errors in Serial Port Programming 
+	- Reading data from Serial Port using vb.net
+	- Setting Timeouts in Serial Port Read Operations
+	- Sending Data from PC to Arduino using VB.Net
 
 ## Repo Contents
 
