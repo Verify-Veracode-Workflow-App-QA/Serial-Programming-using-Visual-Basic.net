@@ -37,7 +37,7 @@ In this tutorial,
 
 ## Screen Shots
 
--[Reading data from Serial Port using vb.net](https://www.xanthium.in/sites/default/files/inline-images/image_15.png)
+-![Reading data from Serial Port using vb.net](https://www.xanthium.in/sites/default/files/inline-images/image_15.png)
 
 ## Repo Contents
 
