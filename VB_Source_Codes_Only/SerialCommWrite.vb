@@ -1,23 +1,20 @@
 ﻿
 '+=====================================================================================================+
-'| Serial Port Programming using Dot net Framework and Visual Basic.net on Windows7 (Read)             |
-'+=====================================================================================================+
-'| The Program runs on the PC side and uses dotnet framework to open a serial port and Reads an ASCII  |
-'| character send from a microcontroller 	                                                       |
+'| Program Sends a character to Arduino using Write()                                                  |
 '+=====================================================================================================+
 '| www.xanthium.in										       |                                        
-'| Copyright (C) 2016 Rahul.S                                                                          |
+'| Copyright (C) 2024 Rahul.S                                                                          |
 '|                                                                                                     |
 '| http://www.xanthium.in/serial-port-programming-visual-basic-dotnet-for-embedded-developers          |
 '+=====================================================================================================+
-	
+
 '+=====================================================================================================+
-'| Compiler/IDE  :	Visual Studio/Visual Studio Express/SharpDevelop                               |
-'| Library       :  SerialPort Class from Dotnet Framework                                             |
+'| Compiler/IDE  :	Visual StudioCommunity 2022                                                        |
+'| Library       :  SerialPort Class from Dotnet Framework/.NET Platform                                              |
 '| Language      :  Visual Basic.net                                                                   |
-'| OS            :	Windows                                                                        |
-'| Programmer    :	Rahul.S                                                                        |
-'| Date	         :	20-March-2016                                                                  |
+'| OS            :	Windows                                                                            |
+'| Programmer    :	Rahul.S                                                                            |
+'| Date	         :	19-April-2024                                                                      |
 '+=====================================================================================================+
 
 '+=====================================================================================================+
@@ -25,7 +22,7 @@
 '+=====================================================================================================+
 '|                                                                                                     |
 '|     +--------+         +----------------+                +----------------------+                   |
-'|     |	|         |            TXD |----------------|RXD                   |                   |
+'|     |	    |         |            TXD |----------------|RXD                   |                   |
 '|     | PC     | =======>|USB         RXD |----------------|TXD  MicroController  |                   |
 '|    / [] []   /         |            GND |----------------|GND                   |                   |
 '|   /[] [] [] /          +----------------+                +----------------------+                   |
@@ -38,10 +35,11 @@
 '+=====================================================================================================+
 
 
+
 Imports System
 Imports System.IO.Ports 'To Access the SerialPort Object
 
-Module SerialCommRead
+Module SerialCommWrite
 
     Sub Main()
         Console.WriteLine("+---------------------------------------------+")
@@ -53,7 +51,6 @@ Module SerialCommRead
         Dim MyCOMPort As SerialPort        
         Dim PortName As String         'To Store the Portname of the form COMxx,eg COM31
         Dim BaudRate As Integer        'To Store the Baudrate at which you wish to transmit eg:4800,9600,19200
-        Dim DataReceived As String     'To Store the Received Data
 
         '+------------------------------------------------------------------+'
         '|   To Display the available Serial Ports attached to your PC      |'
@@ -78,30 +75,20 @@ Module SerialCommRead
 
         Console.WriteLine("Enter Baudrate ->")         'Ask for Baudrate you wish to communicate 
         BaudRate = Convert.ToInt32(Console.ReadLine()) 'Convert the character to integer
-      
-       '+------------------------------------------------------------------+'
-       '|              Configuring the SerialPort Parameters               |'
-       '+------------------------------------------------------------------+'
 
         MyCOMPort = New SerialPort()
 
-        MyCOMPort.PortName = PortName          ' Assign the port name to the MyCOMPort object
-        MyCOMPort.BaudRate = BaudRate          ' Assign th Baudrate to the MyCOMPort object
-		MyCOMPort.Parity   = Parity.None       ' Parity bits = none  
-		MyCOMPort.DataBits = 8                 ' No of Data bits = 8
-	    MyCOMPort.StopBits = StopBits.One      ' No of Stop bits = 1
+        MyCOMPort.PortName = PortName           ' Assign the port name to the MyCOMPort object
+        MyCOMPort.BaudRate = BaudRate           ' Assign th Baudrate to the MyCOMPort object
+		MyCOMPort.Parity   = Parity.None        ' Parity bits = none  
+		MyCOMPort.DataBits = 8                  ' No of Data bits = 8
+	    MyCOMPort.StopBits = StopBits.One       ' No of Stop bits = 1
 
 		MyCOMPort.Open()                       ' Open the port
-
-        Console.WriteLine("Waiting for Data to be Received")
-       
-        'Reading from Serial Port 
-
-		DataReceived = MyCOMPort.ReadLine()    ' Waiting for Data to be send from the microcontroller
+		MyCOMPort.Write("A")                   ' Write an ascii "A"
 		MyCOMPort.Close()                      ' Close port
         
-        Console.WriteLine()
-        Console.WriteLine("Data received -> {0}",DataReceived)
+        Console.WriteLine("A written to {0} @ {1}bps",PortName,BaudRate)
         Console.WriteLine("+---------------------------------------------+")
         Console.ReadLine()
     End Sub
