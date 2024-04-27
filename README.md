@@ -17,6 +17,8 @@ In this tutorial,
 
 - [Serial Port programming tutorial using VisualBasic.NET on the .NET Platform](https://www.xanthium.in/serial-port-programming-visual-basic-dotnet-for-embedded-developers)
 
+- [Serial Port programming tutorial using VisualBasic.NET on Linux Platform](https://www.xanthium.in/serial-port-tty-terminal-programming-on-linux-visualbasic-dotnet-platform)
+
 - Discover How to program your PC's serial port using **VisualBasic.Net** and the **.NET Platform** in our tutorial. Learn to communicate with Arduino, microcontrollers, and Labjack devices via Virtual COM port connections.The tutorial will Enhance your embedded system coding skills and help in your professional Growth.
 
 - Tutorial will teach the following things.
