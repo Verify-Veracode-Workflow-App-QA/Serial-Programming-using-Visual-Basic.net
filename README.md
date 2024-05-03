@@ -11,7 +11,7 @@ In this tutorial,
 	- .NET Framework 4.8+
 	- .NET Core 3+
 	- .Net 8/9
-	
+
 - Following OS are supported
 	- Windows 10
     - Windows 11
@@ -31,13 +31,13 @@ In this tutorial,
 
 	- Creating a VB.Net Project,add required namespaces using nuget on Visual Studio Community 
 	- Using the SerialPort Class from System.IO.Ports namespace 
-	- How to interface Arduino with PC using VB.NET Serial Communication
-	- Interfacing Bare Microcontroller like 8051,ATmega to a PC using VB.Net
-	- Finding Available Serial Portson your PC using Visual Basic.Net
+	- How to interface Arduino with PC using (visual Basic.NET)VB.NET Serial Communication
+	- Interfacing Bare Microcontroller like 8051,ATmega to a PC using VB.Net using SerialPort
+	- Finding Available Serial Ports on your PC using Visual Basic.Net
 	- Using VB.net Exceptions to handle Errors in Serial Port Programming 
-	- Reading data from Serial Port using vb.net
+	- Reading data send by Arduino from Serial Port using (visual Basic.NET) vb.net
 	- Setting Timeouts in Serial Port Read Operations
-	- Sending Data from PC to Arduino using VB.Net
+	- Sending Data from PC to Arduino using VB.Net(visual Basic.NET)
 
 ## Hardware Connections
 
