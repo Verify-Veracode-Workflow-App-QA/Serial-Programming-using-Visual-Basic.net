@@ -1,16 +1,22 @@
-# Serial Port communication between Arduino and PC using VisualBasic.Net
+# Crossplatform Serial Port communication between Arduino and PC using VisualBasic.Net
 ![Serial Port communication between Arduino and PC using VisualBasic.Net and .NET Platform](https://www.xanthium.in/sites/default/files/inline-images/serial-port-programming-tutorial-visual-basic-net-platform.jpg)
 
 ## Intro 
 In this tutorial,
 
-- We will learn to program the USB Virtual serial port of a PC using Visual Basic.net and .NET platform [.NET Framework 4.5 +,.NET Core,.Net8/9]
+- We will learn to program the USB Virtual serial port of a PC using Visual Basic.net and .NET platform [.NET Framework 4.5 +,.NET Core,.Net8/9] on **Windows** and **Linux** Systems
 
 - The code will Work on the following .NET platforms
 	- Classical .NET Framework 4.5+
 	- .NET Framework 4.8+
 	- .NET Core 3+
 	- .Net 8/9
+	
+- Following OS are supported
+	- Windows 10
+    - Windows 11
+    - Linux (Ubuntu)
+
 - ![Serial Port programming tutorial using VisualBasic.NET on the .NET Framework Platform](https://www.xanthium.in/sites/default/files/inline-images/serial-port-programming-visual-basic-net.jpg)
 
 ## Tutorial 
