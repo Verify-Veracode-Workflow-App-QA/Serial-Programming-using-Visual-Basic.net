@@ -1,4 +1,4 @@
-# Cross platform Serial Port communication between Arduino and PC using VisualBasic.Net - try 1
+# Cross platform Serial Port communication between Arduino and PC using VisualBasic.Net - try 2
 ![Serial Port communication between Arduino and PC using VisualBasic.Net and .NET Platform](https://www.xanthium.in/sites/default/files/inline-images/serial-port-programming-tutorial-visual-basic-net-platform.jpg)
 
 ## Intro 
